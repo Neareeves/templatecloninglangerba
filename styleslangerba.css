@@ -208,6 +208,7 @@ header {
 	line-height: 1.33;
 }
 
+
 /*******************section 2*******************/
 
 .section2 {
@@ -560,7 +561,7 @@ footer a {
 	.section4 {
 		/*height: 850px; */
 	}
-.flexbook {
+	.flexbook {
 		padding-top: 40px;
 	}
 	.section2 img {
@@ -580,21 +581,31 @@ footer a {
 	text-align: center;
 	font-size: 0.8em;
 	}
-	.telephone a {
+	/*.fone {
+	
 	color: #003c5a;
 	background: #FFF;
 	border-radius: 50%;
-	
-	text-align: center;
-	}
-	.fas {
-	width: 20px;
-	}
-.carousel-inner  {
-	width: 100%;}
+	text-align: center;}*/
+	/*.fas {
+	}*/
+	.carousel-inner  {
+	width: 100%;
 }
 
+	.telephone a {
+	width: 20px;
+	color: #003c5a;
+	background: #FFF;
+	border-radius: 50%;
+	text-align: center;
+	
+}
+}
 @media all and (min-width: 577px) and (max-width: 778px) {
+	.navbar-toggler {
+		color: #FFF;
+	}
 	.rowicons {
 		text-align: center;
 	}
@@ -660,12 +671,13 @@ footer a {
 	}
 	
 		.telephone a {
+	
 	color: #003c5a;
 	background: #FFF;
 	border-radius: 50%;
+	text-align: center;}
 	
-	text-align: center;
-}
+
 .fas {
 	width: 20px;
 }
@@ -731,7 +743,7 @@ footer a {
 		display: block;
 	}
 
-	.telephone a {
+	.fone {
 	color: #003c5a;
 	background: #FFF;
 	border-radius: 50%;
@@ -749,7 +761,7 @@ footer a {
 	.carousel-inner  {
 	width: 90%;}
 }
-@media all and (max-width: 1200px) and (min-width: 993px) {
+@media all and (max-width: 1200px) and (min-width: 992px) {
 	.formul {
 		padding-left: 10%;
 	}
@@ -767,13 +779,13 @@ footer a {
 	.rd-navbar-static .fixed-fullwidth-visible {
 		display: none;
 	}
-	.fone *{
+	/*.fone *{
 	color: blue;
 	opacity: 1;
 	visibility: visible;
 	background: #fff;
 	border-radius: 50%;	;
-	}
+	}*/
 	.rd-navbar-fixed .rd-navbar-panel {
 	    color: #2379a3;
 	}
@@ -785,3 +797,8 @@ footer a {
 }
 
 
+@media all and (min-width: 1201px) {
+	.telephone a {
+	display: none;
+	}
+}
